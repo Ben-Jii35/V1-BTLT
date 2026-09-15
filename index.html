@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BTLTMedia - Vidéaste </title>
+<meta name="description" content="BTLT, studio vidéo indépendant. Films de marque, captation d'événements, formats courts. Tournage, montage et étalonnage par la même personne.">
+<meta property="og:title" content="BTLT — studio vidéo">
+<meta property="og:description" content="Films de marque, captation, formats courts. Une caméra, du temps sur place.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0f0e0c">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,600;1,700&family=Barlow:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Aller au contenu</a>
+
+<!-- ═══ Navigation verticale ═══ -->
+<header class="side">
+  <a class="sig" href="#accueil">
+    <img class="sig__mark" src="assets/logo-btlt.png" alt="BTLT" width="838" height="469">
+  </a>
+
+  <button class="mini" id="mini" aria-expanded="false" aria-controls="sidenav">
+    <span class="mini__l" aria-hidden="true"></span>
+    <span class="sr">Ouvrir le menu</span>
+  </button>
+
+  <nav class="sidenav" id="sidenav" aria-label="Navigation principale">
+    <a href="#accueil">Travaux</a>
+    <a href="#apropos">À propos</a>
+    <a href="#prestations">Prestations</a>
+    <a href="#mots">Ils en parlent</a>
+    <a href="#ecrire">M'écrire</a>
+  </nav>
+
+  <!-- ⚑ À REMPLACER : ville, adresse e-mail -->
+  <p class="side__meta">
+    France entière
+  </p>
+</header>
+
+<main id="main">
+
+  <!-- ═══ GRILLE D'ENTRÉE ═══ -->
+  <section class="entry" id="accueil">
+    <div class="entry__intro">
+      <h1>Vidéaste<br>films de marque &amp; captation</h1>
+      <p>Une caméra, un pied, et du temps sur place. Je filme ce qui arrive plutôt que ce qui
+        était prévu au découpage — et je monte moi-même, parce que la moitié du film se
+        décide là.</p>
+    </div>
+
+    <!--
+      ⚑ Vignettes : remplacez les URL par vos propres images (dossier assets/).
+         data-full   → image grand format ouverte dans la visionneuse
+         data-video  → lien d'intégration Vimeo ou YouTube, par exemple
+                       data-video="https://player.vimeo.com/video/123456789"
+                       Laissé vide : la visionneuse affiche simplement l'image.
+    -->
+    <div class="mason" id="mason">
+
+      <figure class="shot shot--pano">
+        <button class="shot__btn"
+                data-full="https://images.unsplash.com/photo-1518929458119-e5bf444c30f4?w=1800&q=85&auto=format&fit=crop"
+                data-video=""
+                data-legend="Ferme Saint-Yon — film de marque, 2025"
+                data-dur="4′ 10″">
+          <img src="https://images.unsplash.com/photo-1518929458119-e5bf444c30f4?w=1400&q=80&auto=format&fit=crop"
+               alt="Équipe de tournage installant une caméra sur un décor extérieur" loading="lazy" data-fallback>
+          <span class="sr">Ouvrir : Ferme Saint-Yon, film de marque 2025</span>
+        </button>
+      </figure>
+
+      <figure class="shot shot--carre">
+        <button class="shot__btn"
+                data-full="https://images.unsplash.com/photo-1601506521937-0121a7fc2a6b?w=1800&q=85&auto=format&fit=crop"
+                data-video=""
+                data-legend="Collectif Maera — clip studio, 2025"
+                data-dur="3′ 02″">
+          <img src="https://images.unsplash.com/photo-1601506521937-0121a7fc2a6b?w=1000&q=80&auto=format&fit=crop"
+               alt="Tournage en studio, caméra face à une danseuse éclairée aux néons" loading="lazy" data-fallback>
+          <span class="sr">Ouvrir : Collectif Maera, clip studio 2025</span>
+        </button>
+      </figure>
+
+      <figure class="shot shot--moyen">
+        <button class="shot__btn"
+                data-full="https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=1800&q=85&auto=format&fit=crop"
+                data-video=""
+                data-legend="Festival des Docks — captation deux caméras, 2025"
+                data-dur="6′ 25″">
+          <img src="https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=1000&q=80&auto=format&fit=crop"
+               alt="Foule devant une scène de concert éclairée" loading="lazy" data-fallback>
+          <span class="sr">Ouvrir : Festival des Docks, captation 2025</span>
+        </button>
+      </figure>
+
+      <figure class="shot shot--haut">
+        <button class="shot__btn"
+                data-full="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1800&q=85&auto=format&fit=crop"
+                data-video=""
+                data-legend="Série verticale — six formats courts, 2026"
+                data-dur="0′ 45″">
+          <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1000&q=80&auto=format&fit=crop"
+               alt="Clap de tournage tenu à bout de bras devant un paysage désertique" loading="lazy" data-fallback>
+          <span class="sr">Ouvrir : série de formats courts verticaux, 2026</span>
+        </button>
+      </figure>
+
+      <figure class="shot shot--filet">
+        <button class="shot__btn"
+                data-full="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=1800&q=85&auto=format&fit=crop"
+                data-video=""
+                data-legend="Cinéma Le Rex — film anniversaire, 2024"
+                data-dur="8′ 30″">
+          <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=1000&q=80&auto=format&fit=crop"
+               alt="Projecteur de cinéma en fonctionnement dans un faisceau de fumée" loading="lazy" data-fallback>
+          <span class="sr">Ouvrir : Cinéma Le Rex, film anniversaire 2024</span>
+        </button>
+      </figure>
+
+      <figure class="shot shot--bas">
+        <button class="shot__btn"
+                data-full="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=1800&q=85&auto=format&fit=crop"
+                data-video=""
+                data-legend="Montage et étalonnage — banc de travail"
+                data-dur="—">
+          <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=1000&q=80&auto=format&fit=crop"
+               alt="Timeline de montage vidéo affichée sur un écran" loading="lazy" data-fallback>
+          <span class="sr">Ouvrir : montage et étalonnage</span>
+        </button>
+      </figure>
+
+      <figure class="shot shot--bas">
+        <button class="shot__btn"
+                data-full="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1800&q=85&auto=format&fit=crop"
+                data-video=""
+                data-legend="Repérage — trois jours de route, 2025"
+                data-dur="2′ 18″">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1400&q=80&auto=format&fit=crop"
+               alt="Route droite traversant un paysage de roches rouges" loading="lazy" data-fallback>
+          <span class="sr">Ouvrir : repérage, trois jours de route 2025</span>
+        </button>
+      </figure>
+
+      <figure class="shot shot--filet">
+        <button class="shot__btn"
+                data-full="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=1800&q=85&auto=format&fit=crop"
+                data-video=""
+                data-legend="Documentaire d'altitude — cinq jours de tournage, 2024"
+                data-dur="21′ 00″">
+          <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=1000&q=80&auto=format&fit=crop"
+               alt="Opérateur filmant en montagne au-dessus d'une mer de nuages" loading="lazy" data-fallback>
+          <span class="sr">Ouvrir : documentaire d'altitude, 2024</span>
+        </button>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ═══ À PROPOS ═══ -->
+  <section class="about" id="apropos">
+    <p class="mini-title">À propos</p>
+    <p class="about__big">Je filme depuis dix ans, dont sept à temps plein. J'ai commencé
+      en salle de montage, sur les rushes des autres — c'est là qu'on apprend ce qu'on
+      regrette de ne pas avoir tourné.</p>
+    <div class="about__cols">
+      <p>Je travaille seul, ou à deux quand le direct l'exige. Deux boîtiers, trois focales
+        fixes, un enregistreur son et de la lumière qu'on ne remarque pas. Pas de drone
+        systématique, pas de slider sur chaque plan : un mouvement doit avoir une raison.</p>
+      <!-- ⚑ À REMPLACER : votre ville et vos zones d'intervention -->
+      <p>Je me déplace partout en France, et en Europe quand le projet le justifie.
+        Je ne prends pas plus de vingt projets par an, pour garder le temps de monter
+        correctement et de livrer en trois semaines.</p>
+    </div>
+    <dl class="about__facts">
+      <div><dt>Depuis</dt><dd>2016</dd></div>
+      <div><dt>Projets / an</dt><dd>20 maximum</dd></div>
+      <div><dt>Livraison</dt><dd>3 semaines</dd></div>
+      <div><dt>Formats</dt><dd>4K · 6K · vertical</dd></div>
+    </dl>
+  </section>
+
+  <!-- ═══ PRESTATIONS ═══ -->
+  <section class="offers" id="prestations">
+    <p class="mini-title">Prestations</p>
+    <div class="offers__list">
+      <article class="offer">
+        <span class="offer__num">01</span>
+        <h2>Film de marque</h2>
+        <p>Une journée de tournage chez vous, avec vos équipes, sans acteurs et sans texte
+          récité. Le film qui en sort dure trois à cinq minutes et ressemble à ce que vous faites.</p>
+        <ul>
+          <li>Repérage et entretien préparatoire</li>
+          <li>1 à 2 jours de tournage</li>
+          <li>Montage, étalonnage, mixage son</li>
+          <li>Déclinaisons 16/9, carré et vertical</li>
+        </ul>
+        <p class="offer__from">à partir de 2 200 €</p>
+      </article>
+
+      <article class="offer">
+        <span class="offer__num">02</span>
+        <h2>Captation &amp; événement</h2>
+        <p>Concert, conférence, inauguration : deux caméras, un son pris à la source,
+          et un aftermovie livré avant que tout le monde ait oublié la soirée.</p>
+        <ul>
+          <li>Présence 4 h à 10 h</li>
+          <li>Deux caméras et son direct</li>
+          <li>Aftermovie de 2 à 3 minutes</li>
+          <li>Rushes bruts fournis sur demande</li>
+        </ul>
+        <p class="offer__from">à partir de 1 400 €</p>
+      </article>
+
+      <article class="offer">
+        <span class="offer__num">03</span>
+        <h2>Formats courts</h2>
+        <p>Une journée, plusieurs vidéos verticales. Pensées pour être vues sans le son,
+          coupées court, et suffisamment différentes les unes des autres.</p>
+        <ul>
+          <li>1 jour de tournage</li>
+          <li>6 à 10 vidéos de 20 à 60 s</li>
+          <li>Sous-titres incrustés</li>
+          <li>Livraison échelonnée sur 15 jours</li>
+        </ul>
+        <p class="offer__from">à partir de 890 €</p>
+      </article>
+    </div>
+    <!-- ⚑ À REMPLACER : tarifs et rayon de déplacement -->
+    <p class="offers__note">Chaque devis est établi après un échange — la durée, le lieu et
+      le nombre de livrables changent le prix. Les montants ci-dessus incluent le déplacement
+      dans un rayon de 80 km et une série de retouches après la première version.</p>
+  </section>
+
+  <!-- ═══ MOTS ═══ -->
+  <section class="words" id="mots">
+    <p class="mini-title">Ils en parlent</p>
+    <div class="words__list">
+      <blockquote>
+        <p>« On l'a laissé tourner deux jours dans l'atelier. Les gens ont fini par oublier
+          la caméra, et c'est exactement ce qu'on voulait montrer. »</p>
+        <cite>Hélène R. — Ferme Saint-Yon, film de marque</cite>
+      </blockquote>
+      <blockquote>
+        <p>« Aftermovie reçu le mercredi pour un concert du samedi. Le son direct change
+          tout : on entend la salle, pas une musique posée par-dessus. »</p>
+        <cite>Yanis B. — Festival des Docks</cite>
+      </blockquote>
+      <blockquote>
+        <p>« Il nous a dit non deux fois sur des idées qu'on trouvait bonnes. Il avait
+          raison les deux fois. C'est pour ça qu'on le rappelle. »</p>
+        <cite>Sophie M. — direction de la communication</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section class="write" id="ecrire">
+    <p class="mini-title">M'écrire</p>
+    <div class="write__grid">
+      <div class="write__side">
+        <h2>Racontez-moi<br>votre projet</h2>
+        <p>Une date, un lieu, une intention. Je réponds en deux jours ouvrés, moi-même,
+          et jamais avec un modèle de mail.</p>
+      </div>
+
+      <!-- action="/contact" method="post" — à brancher sur votre back-end -->
+      <form class="write__form" id="form-contact" novalidate>
+        <div class="w-in">
+          <label for="c-nom">Votre nom</label>
+          <input id="c-nom" type="text" autocomplete="name" required>
+          <p class="w-err" data-err-for="c-nom"></p>
+        </div>
+        <div class="w-in">
+          <label for="c-mail">Votre e-mail</label>
+          <input id="c-mail" type="email" autocomplete="email" required>
+          <p class="w-err" data-err-for="c-mail"></p>
+        </div>
+        <div class="w-in">
+          <label for="c-type">Type de projet</label>
+          <select id="c-type" required>
+            <option value="">—</option>
+            <option>Film de marque</option>
+            <option>Captation ou événement</option>
+            <option>Formats courts</option>
+            <option>Montage seul</option>
+            <option>Autre projet</option>
+          </select>
+          <p class="w-err" data-err-for="c-type"></p>
+        </div>
+        <div class="w-in">
+          <label for="c-date">Date de tournage <span>(facultatif)</span></label>
+          <input id="c-date" type="date">
+        </div>
+        <div class="w-in">
+          <label for="c-msg">Votre message</label>
+          <textarea id="c-msg" rows="5" required></textarea>
+          <p class="w-err" data-err-for="c-msg"></p>
+        </div>
+        <button class="line-btn" type="submit">Envoyer</button>
+        <p class="w-status" id="contact-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bottom">
+    <p>© 2026 BTLT — studio vidéo</p>
+    <nav aria-label="Liens de pied de page">
+      <a href="#prestations">Prestations</a>
+      <a href="#ecrire">Contact</a>
+      <a href="#">Mentions légales</a>
+    </nav>
+  </footer>
+
+</main>
+
+<!-- ═══ VISIONNEUSE ═══ -->
+<div class="box" id="box" hidden role="dialog" aria-modal="true" aria-label="Média agrandi">
+  <button class="box__close" id="box-close" aria-label="Fermer">✕</button>
+  <button class="box__nav box__nav--prev" id="box-prev" aria-label="Média précédent">‹</button>
+  <figure class="box__figure">
+    <img id="box-img" src="" alt="">
+    <div class="box__player" id="box-player" hidden></div>
+    <figcaption id="box-cap"></figcaption>
+  </figure>
+  <button class="box__nav box__nav--next" id="box-next" aria-label="Média suivant">›</button>
+  <p class="box__count" id="box-count"></p>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
